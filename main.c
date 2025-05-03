@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
+float calculate_hypotenuse(float a, float b){
+    float hypotenuse = sqrt(pow(a, 2.0) + pow(b, 2.0));
+    return hypotenuse;
+}
 
 // This is where you add the function calculate_hypotenuse
 
